@@ -6,7 +6,7 @@ export function Container({
 }: HTMLAttributes<HTMLDivElement>) {
   return (
     <div
-      className={`mx-auto w-full ${className}`.trim()}
+      className={`mx-auto w-full max-w-7xl ${className}`.trim()}
       {...props}
     />
   );
