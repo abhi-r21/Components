@@ -1,11 +1,17 @@
-import { Container } from "@/Components/container";
-import { Hero } from "@/Components/hero";
-import { UpComing } from "@/Components/Up-Coming";
+import { TiltCard } from "@/Components/tilt-card";
+
 
 export default function Page() {
-  return <div className="relative w-full scrollbar-none flex-1 items-center justify-center bg-white text-black dark:bg-neutral-950">
-    <Container>
-      <UpComing/>
-    </Container>;
-    </div>
+  return (
+    <main className="grid min-h-screen place-items-center p-6">
+      <TiltCard
+        className="w-full max-w-xl"
+        image="/images/Travel.jpg"
+        imageAlt="Travel-Image"
+        heading="Heading 1"
+        subheading="Sub heading or Heading 2"
+        description="Your description goes here."
+      />
+    </main>
+  );
 };
