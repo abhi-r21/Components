@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 import React from "react";
-import { Card } from "./ui/card";
+import { Card } from "./card";
 import { GeistSans } from "geist/font/sans";
 
 export const Content = () => {
